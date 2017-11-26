@@ -1,5 +1,32 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-<h1>Welcome Home</h1>
+    {% include 'homepage/header.html.twig' %}
+    <section id="components-articles">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-9 mb-5 mx-auto">
+                    <div class="card">
+                        <div class="card-body"><h4 class="card-title">Fuga eligendi voluptatem provident
+                                placeat.</h4><h6 class="card-subtitle mb-2 text-muted">at November 26,
+                                2017</h6>
+                            <p class="card-text">Aut quas consequuntur nesciunt vel unde magni ut fugiat
+                                quia et.</p><a class="card-link"
+                                               href="articles/fuga-eligendi-voluptatem-provident-placeat">Read
+                                More</a></div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-9 mb-5 mx-auto">
+                    <div class="card">
+                        <div class="card-body"><h4 class="card-title">Ea sit error magni.</h4><h6
+                                    class="card-subtitle mb-2 text-muted">at November 26, 2017</h6>
+                            <p class="card-text">Doloremque iure quia in mollitia sed vitae sapiente
+                                voluptatem harum quisquam ut aut fuga tempora ut.</p><a
+                                    class="card-link" href="articles/ea-sit-error-magni">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 {% endblock %}
