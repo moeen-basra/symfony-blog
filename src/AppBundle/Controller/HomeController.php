@@ -13,16 +13,16 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Response;
 
-class HomePageController extends Controller
+class HomeController extends Controller
 {
     /**
-     * render the homepage
+     * render the home
      *
      * @Route("/")
      * @return Response
      */
     public function indexAction()
     {
-        return $this->render('homepage/index.html.twig');
+        return $this->render('home/index.html.twig');
     }
 }
